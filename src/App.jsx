@@ -1,7 +1,13 @@
+import Container from "./components/Container";
+import Carousel from "./components/Carousel";
+
 const App = () => {
   return (
     <main>
-      <h2>Slider Starter</h2>
+      <Carousel />
+      {/* <button>Prev</button>
+      <Container />
+      <button>Next</button> */}
     </main>
   );
 };
