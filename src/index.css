@@ -349,3 +349,21 @@ ul {
     font-size: 1.5rem;
   }
 }
+
+/* ============= SLICK CAROUSEL CSS =============== */
+.slick-container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 80vw;
+  max-width: 50rem;
+  text-align: center;
+}
+
+.slick-slide img {
+  display: inline-block;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--primary-500) !important;
+}

@@ -1,13 +1,12 @@
-import Container from "./components/Container";
+import Container from "./components/SlickCarousel";
 import Carousel from "./components/Carousel";
+import SlickCarousel from "./components/SlickCarousel";
 
 const App = () => {
   return (
     <main>
-      <Carousel />
-      {/* <button>Prev</button>
-      <Container />
-      <button>Next</button> */}
+      {/* <Carousel /> */}
+      <SlickCarousel />
     </main>
   );
 };
