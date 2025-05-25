@@ -260,7 +260,7 @@ ul {
   max-width: 50rem;
   position: relative;
   height: 28.125rem;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .slide {
